@@ -1,0 +1,79 @@
+.poll {
+    width: 400px;
+    height: 190px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    right: 50%;
+    margin: -200px 0 0 -200px;
+    border: #bfccd6 6px solid;
+    padding: 20px 40px 20px 40px;
+    @include box-sizing(border-box);
+    border-radius: 4px;
+    background-color: #FFF;
+    h3 {
+        margin: 20px 0 10px 0;
+    }
+    ul,
+    li {
+        list-style: none;
+        margin: 100px;
+        padding: 10px;
+    }
+    li {
+        padding: 100px 0 10px 0;
+    }
+    input[type="radio"] {
+        margin: 0 10px 0 0;
+    }
+}
+.james {
+    width: 400px;
+    height: 190px;
+    position: absolute;
+    left: 41%;
+    top: 200%;
+    right: 50%;
+    margin: -200px 0 0 -200px;
+    border: #bfccd6 4px solid;
+    padding: 20px 40px 20px 40px;
+    @include box-sizing(border-box);
+    border-radius: 4px;
+    background-color: #FFF;
+}
+h3 {
+    margin: 20px 0 10px 0;
+    font-size:25px;
+}
+ul,
+li {
+    list-style: none;
+    margin: 100px;
+    padding: 10px;
+}
+li {
+    padding: 100px 0 10px 0;
+}
+input[type="radio"] {
+    margin: 0 10px 0 0;
+}
+}
+.poll-options {
+    margin-bottom: 25px;
+}
+.poll-options .poll-option {
+    display: inline-blockh;
+    margin-right: 15px;
+}
+.submit-button {
+    background-color:#ffa2ab!important;
+    margin-top: 50px;
+    margin-left: 300px;
+
+}
+body {
+font-family: 'Open Sans', sans-serif;
+font-weight:400;
+background-color:#c7def0;
+color:rgba(#26e622, 0.6);
+}
